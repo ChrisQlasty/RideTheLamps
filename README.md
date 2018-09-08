@@ -4,6 +4,9 @@ This is a code of PC C# app, which intercepts output from the touchless gesture 
 
 The output of the gesture sensor contains 4 fields: hand pose code, performed gesture code, hand position in _x_ axis, hand position in _y_ axis (both number expressed in percentage).
 
+## Overview
+
+![Overview image](./sources/schemeRtL.png)
 
 ### References
 TBA - Research utilizing this application is to be presented at IECON'18.
