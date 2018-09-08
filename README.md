@@ -13,5 +13,5 @@ With continuous gestures, e.g. by slowly moving single finger in front of the se
 Application allows to choose between two active light selection methods (different gestures trigger other lighting system responses) and two brightness adjustment methods (in _x_ and in _y_ axes).
 
 ### References
-[1] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek](https://ieeexplore.ieee.org/abstract/document/8004989/)
+[1] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek](https://ieeexplore.ieee.org/abstract/document/8004989/)</br>
 TBA - Research utilizing this application is to be presented at IECON'18.
