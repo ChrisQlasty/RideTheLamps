@@ -9,6 +9,8 @@ Optical gesture sensor [1](https://ieeexplore.ieee.org/abstract/document/8357549
 ![Overview image](./sources/schemeRtL.png)
 With discrete static gestures active lamp source is done - e.g. single finger selects right lamp, two fingers select second lamp. Discrete dynamic gestures (hand swipes) can turn on/off active lamp depending on the direction of performed movement. </br>
 With continuous gestures, e.g. by slowly moving single finger in front of the sensor, brightness of active lamp can be changed.
+</br>
+Application allows to choose between two active light selection methods (different gestures trigger other lighting system responses) and two brightness adjustment methods (in _x_ and in _y_ axes).
 
 ### References
 TBA - Research utilizing this application is to be presented at IECON'18.
