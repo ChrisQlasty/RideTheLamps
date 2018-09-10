@@ -34,8 +34,7 @@ namespace RideTheLamps
         static int Lamp = 1;                
 
         static int Lamp1Color = 47000;
-        static int Lamp2Color = 25500;
-        static int Lamp3Color = 5500;
+        static int Lamp2Color = 25500;        
         static int LampAlertColor = 65000;
 
         static float bri_range = 2.5f;
