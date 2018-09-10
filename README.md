@@ -12,6 +12,15 @@ With continuous gestures, e.g. by slowly moving single finger in front of the se
 </br>
 Application allows to choose between two active light selection methods (different gestures trigger other lighting system responses) and two brightness adjustment methods (in _x_ and in _y_ axes).
 
+## Demo
+One of implemented light source selection methods in action is presented below. Selected lamp/s blink in notification and the control is taken over it. After that, user can e.g. turn it off/on or precisely change brightness level.
+
+| Discrete gestures </br> Left lamp selection |   Discrete gestures </br> Right lamp selection  |
+|----------------|----------------|
+| <p align="center"><img src="./sources/Lsel.gif"></p> | <p align="center"><img src="./sources/Rsel.gif"></p>  |
+| <p align="center">__Discrete gestures </br> Both lamps selection__</p> |   <p align="center">__Continuous gestures </br> Lamp brightness adjustment__ </p>|
+| <p align="center"><img src="./sources/Bsel.gif"></p>  | <p align="center"><img src="./sources/cont.gif"></p>  |
+
 ### References
 [1] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek](https://ieeexplore.ieee.org/abstract/document/8004989/)</br>
 TBA - Research utilizing this application is to be presented at IECON'18.
