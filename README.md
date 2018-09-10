@@ -13,7 +13,7 @@ With continuous gestures, e.g. by slowly moving single finger in front of the se
 Application allows to choose between two active light selection methods (different gestures trigger other lighting system responses) and two brightness adjustment methods (in _x_ and in _y_ axes).
 
 ## Demo
-One of implemented light source selection methods in action is presented below. Selected lamp/s blink in notification and the control is taken over it. After that, user can e.g. turn it off/on or precisely change brightness level.
+One of implemented light source selection methods in action is presented below. Selected lamp/s blink in notification and the control is taken over it. After that, user can e.g. turn it off/on or precisely change brightness level. Gesture sensor is mounted within the light switch.
 
 | Discrete gestures </br> Left lamp selection |   Discrete gestures </br> Right lamp selection  |
 |----------------|----------------|
