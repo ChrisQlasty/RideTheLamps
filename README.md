@@ -6,7 +6,7 @@ The output dataframe of the gesture sensor contains 4 fields: code of recognized
 
 ## Overview
 Optical gesture sensor sends information about recognized hand pose/gesture via UART interface. In this implementation the hand pose classification relies on a 2-layer feedforward neural network based gesture recognition system [[1]](https://ieeexplore.ieee.org/abstract/document/8004989/). After pressing 'Start' button on the GUI Ride the Lamps app opens appropriate serial port on the PC and listens for incoming dataframes. If codes of handled gestures are noticed, it sends appropriate requests to a Philips HUE bridge utilizing dedicated REST queries. As a result, control of compatible light sources is taken. In this study, two bulbs lighting system along with one gesture-sensor-based switch were mounted within a plasterboard wall (bottom right corner of the image).
-![Overview image](./sources/schemeRtL.png)
+![Overview image](./sources/schemeRtL2.png)
 With discrete static gestures active lamp selection is done - e.g. single finger selects right lamp, two fingers select second lamp. Discrete dynamic gestures (hand swipes) can turn on/off active lamp depending on the direction of performed movement (left/right). </br>
 With continuous gestures, e.g. by slowly moving single finger in front of the sensor, brightness of active lamp can be changed.
 </br>
