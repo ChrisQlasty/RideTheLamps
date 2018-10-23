@@ -1,11 +1,11 @@
 # RideTheLamps
 
-This is a code of PC C# app, which intercepts output dataframes from the touchless gesture sensor, interprets them and sends appropriate commands to Philips Hue bridge to change lights in the surrounding.
+This is a code of PC C# app, which intercepts output dataframes from the touchless gesture sensor, interprets them and sends appropriate commands to Philips Hue bridge to change lights in the surrounding. It was utilized in the research presented at IECON'18 [1].
 
 The output dataframe of the gesture sensor contains 4 fields: code of recognized hand pose, performed gesture code (or 'emp' if no gesture was observed), hand position in _x_ axis and hand position in _y_ axis in relation to the sensor (both numbers expressed in percentages).
 
 ## Overview
-Optical gesture sensor sends information about recognized hand pose/gesture via UART interface. In this implementation the hand pose classification relies on a 2-layer feedforward neural network based gesture recognition system [[1]](https://ieeexplore.ieee.org/abstract/document/8004989/). After pressing 'Start' button on the GUI Ride the Lamps app opens appropriate serial port on the PC and listens for incoming dataframes. If codes of handled gestures are noticed, it sends appropriate requests to a Philips HUE bridge utilizing dedicated REST queries. As a result, control of compatible light sources is taken. In this study, two bulbs lighting system along with one gesture-sensor-based switch were mounted within a plasterboard wall (bottom right corner of the image).
+Optical gesture sensor sends information about recognized hand pose/gesture via UART interface. In this implementation the hand pose classification relies on a 2-layer feedforward neural network based gesture recognition system [[2]](https://ieeexplore.ieee.org/abstract/document/8004989/). After pressing 'Start' button on the GUI Ride the Lamps app opens appropriate serial port on the PC and listens for incoming dataframes. If codes of handled gestures are noticed, it sends appropriate requests to a Philips HUE bridge utilizing dedicated REST queries. As a result, control of compatible light sources is taken. In this study, two bulbs lighting system along with one gesture-sensor-based switch were mounted within a plasterboard wall (bottom right corner of the image).
 ![Overview image](./sources/schemeRtL2.png)
 With discrete static gestures active lamp selection is done - e.g. single finger selects right lamp, two fingers select second lamp. Discrete dynamic gestures (hand swipes) can turn on/off active lamp depending on the direction of performed movement (left/right). </br>
 With continuous gestures, e.g. by slowly moving single finger in front of the sensor, brightness of active lamp can be changed.
@@ -22,5 +22,5 @@ One of implemented light source selection methods in action is presented below. 
 | <p align="center"><img src="./sources/Bsel.gif"></p>  | <p align="center"><img src="./sources/cont.gif"></p>  |
 
 ### References
-[1] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek](https://ieeexplore.ieee.org/abstract/document/8004989/)</br>
-TBA - Research utilizing this application is to be presented at IECON'18.
+[1] *"Towards Contactless, Hand Gestures-Based Control of Devices"*, K. Czuszynski, J. Ruminski, IECON'18, in print  
+[2] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek, HSI'16](https://ieeexplore.ieee.org/abstract/document/8004989/)
