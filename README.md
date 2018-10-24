@@ -19,7 +19,9 @@ One of implemented light source selection methods in action is presented below. 
 |----------------|----------------|
 | <p align="center"><img src="./sources/Lsel.gif"></p> | <p align="center"><img src="./sources/Rsel.gif"></p>  |
 | <p align="center">__Discrete gestures </br> Both lamps selection__</p> |   <p align="center">__Continuous gestures </br> Lamp brightness adjustment__ </p>|
-| <p align="center"><img src="./sources/Bsel.gif"></p>  | <p align="center"><img src="./sources/cont.gif"></p>  |
+| <p align="center"><img src="./sources/Bsel.gif"></p>  | <p align="center"><img src="./sources/cont.gif"></p>  |  <br>
+
+For longer and high resolution video click [here](https://www.youtube.com/watch?v=f_GUODe9qrs&index=4&list=PL7O2QC3VBSZ2cHDJ8h-QumI3nmG9e7iEM).
 
 ### References
 [1] *"Towards Contactless, Hand Gestures-Based Control of Devices"*, K. Czuszynski, J. Ruminski, IECON'18, in print  
