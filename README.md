@@ -1,6 +1,6 @@
 # RideTheLamps
 
-This is a code of PC C# app, which intercepts output dataframes from the touchless gesture sensor, interprets them and sends appropriate commands to Philips Hue bridge to change lights in the surrounding. It was utilized in the research presented at IECON'18 [1].
+This is a code of PC C# app, which intercepts output dataframes from the touchless gesture sensor, interprets them and sends appropriate commands to Philips Hue bridge to change lights in the surrounding. It was utilized in the research presented at IECON'18 [[1]](https://ieeexplore.ieee.org/document/8591446).
 
 The output dataframe of the gesture sensor contains 4 fields: code of recognized hand pose, performed gesture code (or 'emp' if no gesture was observed), hand position in _x_ axis and hand position in _y_ axis in relation to the sensor (both numbers expressed in percentages).
 
@@ -24,5 +24,5 @@ One of implemented light source selection methods in action is presented below. 
 For longer and high resolution video click [here](https://www.youtube.com/watch?v=f_GUODe9qrs&index=4&list=PL7O2QC3VBSZ2cHDJ8h-QumI3nmG9e7iEM).
 
 ### References
-[1] *"Towards Contactless, Hand Gestures-Based Control of Devices"*, K. Czuszynski, J. Ruminski, IECON'18, in print  
+[1] [*"Towards Contactless, Hand Gestures-Based Control of Devices"*, K. Czuszynski, J. Ruminski, IECON'18](https://ieeexplore.ieee.org/document/8591446/)
 [2] [*"Pose classification in the gesture recognition using the linear optical sensor"*, K. Czuszynski, J. Ruminski, J. Wtorek, HSI'16](https://ieeexplore.ieee.org/abstract/document/8004989/)
